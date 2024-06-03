@@ -7,6 +7,10 @@ import AddTransaction from './components/AddTransaction.vue';
 
 import { ref, computed, onMounted } from 'vue';
 
+//import { useToast } from 'vue-toastification';
+
+//const toast = useToast();
+
 const transactions = ref([]);
 
 onMounted(() => {
@@ -49,12 +53,34 @@ const handleTransactionSubmitted = (transactionData) => {
   });
 
   saveTransactionsToLocalStorage();
-  
+
+  toast.success('Transaction added.');
+};
+
+// Generate unique ID
+const generateUniqueId = () => {
+  return Math.floor(Math.random() * 1000000);
+};
+
+// Delete transaction
+const handleTransactionDeleted = (id) => {
+  transactions.value = transactions.value.filter(
+    (transaction) => transaction.id !== id
+  );
+
+  saveTransactionsToLocalStorage();
+
+  toast.success('Transaction deleted.');
+};
+
+// Save transactions to local storage
+const saveTransactionsToLocalStorage = () => {
+  localStorage.setItem('transactions', JSON.stringify(transactions.value));
+};
 </script>
 
 
 <template>
-  <Header />
   <div class="container">
      <Balance :total="total" />
 
