@@ -7,7 +7,7 @@ import AddTransaction from './components/AddTransaction.vue';
 
 import { ref, computed, onMounted } from 'vue';
 
-//import { useToast } from 'vue-toastification';
+//import { useToast } from 'vue3-toastify';
 
 //const toast = useToast();
 
