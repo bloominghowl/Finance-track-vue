@@ -1,4 +1,19 @@
-<script></script>
+<script setup>
+import { defineProps } from 'vue';
+
+const props = defineProps({
+  transactions: {
+    type: Array,
+    required: true,
+  },
+});
+
+const emit = defineEmits(['transactionDeleted']);
+
+const deleteTransaction = (id) => {
+  emit('transactionDeleted', id);
+};
+</script>
 
 <template>
     <h3>History</h3>
