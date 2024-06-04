@@ -1,14 +1,14 @@
 <  <script setup>
- // import { useToast } from 'vue3-toastify';
+  import { useToast } from 'vue-toastification';
   import { ref } from 'vue';
   
   const text = ref('');
   const amount = ref('');
   
   // Get toast interface
-  //const toast = useToast();
+  const toast = useToast();
   
-  //const emit = defineEmits(['transactionSubmitted']);
+  const emit = defineEmits(['transactionSubmitted']);
   
   const onSubmit = () => {
     if (!text.value || !amount.value) {
