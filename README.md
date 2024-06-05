@@ -20,6 +20,36 @@ This repository contains the source code for a Vue.js application designed to he
 - Node.js and npm (or yarn) installed on your system.
 - Basic understanding of Vue.js concepts is helpful.
 
-
+### 2. Clone the repository:
 ```bash
 git clone https://github.com/bloominghowl/Finance-track-vue.git
+
+### 3. Install dependencies:
+
+```bash
+cd client
+npm install
+``` (or `yarn install`)
+
+4. **Run the development server:**
+
+```bash
+npm run dev
+``` (or `yarn dev`)
+
+This will start the development server and open the app in your web browser at http://localhost:8080/.
+
+### Usage
+
+1. Open the app in your web browser at http://localhost:8080/.
+2. Use the form in the "Add Transaction" section to enter new transactions with text descriptions and amounts.
+3. The app will automatically calculate and display your total balance, income, and expenses.
+4. You can view the list of all your transactions in the "History" section.
+5. Click the "x" button next to a transaction to delete it.
+
+**Note:** Local storage integration for persistence is currently disabled by default. You may need to modify the code to enable this functionality.
+
+### Project Structure
+
+The project is organized with the following directory structure:
+
