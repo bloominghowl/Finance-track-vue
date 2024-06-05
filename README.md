@@ -13,3 +13,9 @@ This repository contains the source code for a Vue.js application designed to he
 - Dynamic calculations for total balance, income, and expenses.
 - Transaction deletion functionality for managing your financial records.
 - Optional local storage integration for persistent data (requires enabling in the code).
+
+### Getting Started
+#### 1. Prerequisites:
+
+-- Node.js and npm (or yarn) installed on your system.
+-- Basic understanding of Vue.js concepts is helpful.
