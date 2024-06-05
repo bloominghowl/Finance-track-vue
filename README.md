@@ -29,14 +29,23 @@ git clone https://github.com/bloominghowl/Finance-track-vue.git
 
 ```bash
 cd client
-npm install
- (or `yarn install`)
+npm install vue@latest
 ```
+ or
+ 
+```bash
+yarn install vue@latest`
+```
+
 4. **Run the development server:**
 
 ```bash
 npm run dev
-``` (or `yarn dev`)
+```
+or
+```
+yarn run dev
+```
 
 This will start the development server and open the app in your web browser at http://localhost:8080/.
 
