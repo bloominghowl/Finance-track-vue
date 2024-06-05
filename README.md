@@ -74,11 +74,9 @@ AddTransaction.vue   # Component for adding new transactions
 main.js               # Main application entry point
 ... (other files)     # Additional files (e.g., styles, utilities)
 ```
+### Author
+Angela Ayivi
 
 ### Contributing
 
-We currently are not accepting code contributions for this project. However, we welcome bug reports and feature requests. Please see the issue tracker for details.
-
-### License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
+We currently are not accepting code contributions for this project. However, we welcome bug reports and feature requests.
