@@ -63,3 +63,22 @@ This will start the development server and open the app in your web browser at h
 
 The project is organized with the following directory structure:
 ```
+src/
+App.vue               # Main application component
+components/           # Directory for reusable components
+Balance.vue         # Component to display balance
+Header.vue          # Component for application header
+IncomeExpense.vue  # Component to display income and expense
+TransactionList.vue # Component to display list of transactions
+AddTransaction.vue   # Component for adding new transactions
+main.js               # Main application entry point
+... (other files)     # Additional files (e.g., styles, utilities)
+```
+
+### Contributing
+
+We currently are not accepting code contributions for this project. However, we welcome bug reports and feature requests. Please see the issue tracker for details.
+
+### License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
