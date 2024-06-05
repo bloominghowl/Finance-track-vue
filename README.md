@@ -7,7 +7,7 @@ This repository contains the source code for a Vue.js application designed to he
 - Visualize your finances: See your current balance, income, and expenses at a glance.
 - Manage transactions: View a list of all your transactions and delete them as needed.
 
-[Features:]
+## Features:
 - Built with Vue.js for a modern and reactive user interface.
 - Clean and intuitive design for easy navigation and data entry.
 - Dynamic calculations for total balance, income, and expenses.
