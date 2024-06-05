@@ -29,12 +29,12 @@ git clone https://github.com/bloominghowl/Finance-track-vue.git
 
 ```bash
 cd client
-npm install vue@latest
+npm install
 ```
  or
  
 ```bash
-yarn install vue@latest`
+yarn install
 ```
 
 4. **Run the development server:**
