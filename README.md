@@ -19,3 +19,7 @@ This repository contains the source code for a Vue.js application designed to he
 
 - Node.js and npm (or yarn) installed on your system.
 - Basic understanding of Vue.js concepts is helpful.
+
+
+```bash
+git clone https://github.com/bloominghowl/Finance-track-vue.git
