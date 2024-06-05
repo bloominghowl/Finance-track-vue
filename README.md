@@ -23,14 +23,15 @@ This repository contains the source code for a Vue.js application designed to he
 ### 2. Clone the repository:
 ```bash
 git clone https://github.com/bloominghowl/Finance-track-vue.git
+```
 
 ### 3. Install dependencies:
 
 ```bash
 cd client
 npm install
-``` (or `yarn install`)
-
+ (or `yarn install`)
+```
 4. **Run the development server:**
 
 ```bash
@@ -52,4 +53,4 @@ This will start the development server and open the app in your web browser at h
 ### Project Structure
 
 The project is organized with the following directory structure:
-
+```
