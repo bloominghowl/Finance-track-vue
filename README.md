@@ -22,7 +22,7 @@ This repository contains the source code for a Vue.js application designed to he
 
 ### 2. Clone the repository:
 ```bash
-git clone https://github.com/bloominghowl/Finance-track-vue.git
+git clone https://github.com/bloominghowl/Klenu.git
 ```
 
 ### 3. Install dependencies:
