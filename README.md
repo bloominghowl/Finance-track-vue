@@ -1,5 +1,5 @@
-# Finance-track-vue
-## Finance Tracker - Personal Finance Management App
+# Klenu
+## Klenu - Personal Finance Management App
 
 This repository contains the source code for a Vue.js application designed to help you track your personal finances.  The app allows you to:
 
